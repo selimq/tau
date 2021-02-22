@@ -103,7 +103,7 @@ class UtilRecorder {
       var error = SnackBar(
           backgroundColor: Colors.red,
           content: Text('Failed to start recording: $err'));
-      ScaffoldMessenger.of(context).showSnackBar(error);
+      Scaffold.of(context).showSnackBar(error);
 
       stopRecorder();
     }
