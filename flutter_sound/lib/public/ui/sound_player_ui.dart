@@ -671,7 +671,7 @@ class SoundPlayerUIState extends State<SoundPlayerUI> {
               disposition.position.inMilliseconds,
               isUtc: true);
           return Text(
-            '${positionDate.minute.toString().padLeft(2, '0')}:${positionDate.second.toString().padLeft(2, '0')} / ${durationDate.minute.toString().padLeft(2, '0')}:${durationDate.second.toString().padLeft(2, '0')}',
+            '${positionDate.minute.toString().padLeft(2, '0')}:${positionDate.second.toString().padLeft(2, '0')}',
             style: _textStyle,
           );
         });
